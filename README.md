@@ -33,25 +33,36 @@ Dataset diambil dari:
 - Pembagian data train/test (80:20)
 
 ### 2. ✅ Klasifikasi
-- Model: Random Forest Classifier
-- Evaluasi: Accuracy, F1-score, Confusion Matrix, Classification Report
-- Interpretasi fitur menggunakan feature importance
+- Algoritma: Logistic Regression & Random Forest
+- Evaluasi: Accuracy, F1-score, Confusion Matrix
+
+📌 **Hasil**:
+- 📈 Logistic Regression:  
+  - Accuracy: **99.63%**  
+  - F1 Score: **0.9963**
+
+- 🌲 Random Forest:  
+  - Accuracy: **99.92%**  
+  - F1 Score: **0.9991**
 
 ### 3. 📌 Clustering
-- Metode: KMeans Clustering
-- Optimasi jumlah cluster dengan Elbow Method dan Silhouette Score
-- Visualisasi hasil clustering menggunakan PCA dan scatter plot
+- Algoritma: KMeans
+- Reduksi dimensi: PCA
+- Evaluasi: Silhouette Score
+
+📌 **Hasil**:
+- Jumlah Cluster Optimal: **2**
+- ⭐ Silhouette Score: **0.6125**
 
 ---
+## 📈 Visualisasi
 
-## 📈 Hasil
-
-- Model klasifikasi memberikan performa akurasi yang baik dalam memprediksi loyalitas pelanggan
-- Clustering mengelompokkan pelanggan ke dalam beberapa segmen berdasarkan perilaku belanja dan tingkat kepuasan
-- Diperoleh insight tentang segmen pelanggan loyal vs non-loyal dan bagaimana pola pembelian mereka berbeda
+- Feature Importance (bar chart)
+- PCA Cluster Plot
+- Confusion Matrix Heatmap
+- Elbow Method & Silhouette Score
 
 ---
-
 ## 🛠️ Tools & Teknologi
 
 - Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
